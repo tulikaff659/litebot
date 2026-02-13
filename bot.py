@@ -598,7 +598,7 @@ def build_matches_keyboard(matches):
 
 def build_match_keyboard(mid, is_subscribed, lineups_available, custom_buttons):
     """
-    custom_buttons: list of tuples (row, col, text, type, data)
+    custom_buttons: list of tuples (id, row, col, text, type, data)
     """
     kb = []
     # 1. Kuzatish tugmasi
